@@ -1,13 +1,14 @@
 syntax enable
 
 set iskeyword+=-				" dash separated words as text object
-set formatoptions-=cro			" disable next line commenting
+set formatoptions-=cro 			" disable next line commenting
 
 set nowrap						" disabling wrapping
 set encoding=utf-8				" utf-8 encoding
 set fileencoding=utf-8			" encoding to be written
 set cmdheight=2					" increasing height of cmd menu
 " set mouse=a						" enable mouse support
+set ruler                       " Shows the cursor position
 set splitbelow					" H split below
 set splitright					" V split to the right
 set t_Co=256					" 256 color support
@@ -22,6 +23,8 @@ set noshowmode					" hide current mode
 set nobackup					" 
 set nowritebackup				" 
 set clipboard+=unnamedplus		" enabling the clipboard support
+set foldcolumn=2                " Folding abilities
+set guifont=Jetbrains\ Mono\ Nerd\ Font
 
 " Shortcut to save file
 nmap <leader>w :w!<cr>
