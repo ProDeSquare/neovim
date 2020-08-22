@@ -22,6 +22,7 @@
     \ 'coc-yank',
     \ 'coc-vetur',
     \ 'coc-json',
+    \ 'coc-deno',
     \ 'coc-marketplace',
     \ ]
 
