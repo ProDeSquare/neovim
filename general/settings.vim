@@ -7,7 +7,7 @@ set nowrap						" disabling wrapping
 set encoding=utf-8				" utf-8 encoding
 set fileencoding=utf-8			" encoding to be written
 set cmdheight=2					" increasing height of cmd menu
-" set mouse=a						" enable mouse support
+set mouse=a						" enable mouse support
 set ruler                       " Shows the cursor position
 set splitbelow					" H split below
 set splitright					" V split to the right
@@ -23,7 +23,7 @@ set noshowmode					" hide current mode
 set nobackup					" 
 set nowritebackup				" 
 set clipboard+=unnamedplus		" enabling the clipboard support
-set foldcolumn=2                " Folding abilities
+set foldcolumn=4                " Folding abilities
 set guifont=Jetbrains\ Mono\ Nerd\ Font
 
 " Shortcut to save file
