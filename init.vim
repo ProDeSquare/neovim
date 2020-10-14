@@ -4,7 +4,7 @@ source $HOME/.config/nvim/keys/mappings.vim
 
 " themes
 source $HOME/.config/nvim/themes/syntax.vim
-source $HOME/.config/nvim/themes/ayu.vim
+source $HOME/.config/nvim/themes/nord.vim
 
 " plugins
 source $HOME/.config/nvim/plug-config/goyo.vim

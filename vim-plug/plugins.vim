@@ -5,7 +5,9 @@ if empty(glob('~/.config/nvim/autoload/plug.vim'))
 endif
 
 call plug#begin('~/.config/nvim/autoload/plugged')
-	Plug 'ayu-theme/ayu-vim'
+	" Plug 'ayu-theme/ayu-vim'
+	Plug 'arcticicestudio/nord-vim'
+	Plug 'joshdick/onedark.vim'
 	Plug 'mhinz/vim-startify'
 	Plug 'PotatoesMaster/i3-vim-syntax'
 	Plug 'ap/vim-css-color'
