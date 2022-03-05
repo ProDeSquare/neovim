@@ -59,6 +59,11 @@ return packer.startup(function(use)
   }
   use "navarasu/onedark.nvim"
   use "norcalli/nvim-colorizer.lua"
+  use {
+    "nvim-lualine/lualine.nvim",
+    requires = { "kyazdani42/nvim-web-devicons", opt = true }
+  }
+  use "akinsho/bufferline.nvim"
 
   if PACKER_BOOTSTRAP then
     require("packer").sync()

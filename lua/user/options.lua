@@ -2,7 +2,7 @@
 local options = {
   title = true,
   exrc = true,
-  -- cursorline = true,
+  showmode = false,
   backup = false,
   cmdheight = 2,
   hlsearch = false,
@@ -24,7 +24,6 @@ local options = {
   splitright = true,
   splitbelow = true,
   completeopt = { "menuone", "noselect" },
-  statusline = " %f%=%y %{&fileencoding}[%{&fileformat}] %l,%c %p%% ",
   termguicolors = true,
 }
 
