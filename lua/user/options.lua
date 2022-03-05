@@ -25,6 +25,7 @@ local options = {
   splitbelow = true,
   completeopt = { "menuone", "noselect" },
   termguicolors = true,
+  foldcolumn = "2"
 }
 
 for k, v in pairs(options) do
