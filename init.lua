@@ -1,3 +1,3 @@
-require("options")
-require("keymaps")
-require("plugins")
+require("user/options")
+require("user/keymaps")
+require("user/plugins")
