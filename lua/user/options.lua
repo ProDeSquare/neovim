@@ -2,7 +2,7 @@
 local options = {
   title = true,
   exrc = true,
-  cursorline = true,
+  -- cursorline = true,
   backup = false,
   cmdheight = 2,
   hlsearch = false,
@@ -25,6 +25,7 @@ local options = {
   splitbelow = true,
   completeopt = { "menuone", "noselect" },
   statusline = " %f%=%y %{&fileencoding}[%{&fileformat}] %l,%c %p%% ",
+  termguicolors = true,
 }
 
 for k, v in pairs(options) do

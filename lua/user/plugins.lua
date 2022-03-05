@@ -57,6 +57,7 @@ return packer.startup(function(use)
     "nvim-telescope/telescope.nvim",
     requires = {{ "nvim-lua/plenary.nvim" }}
   }
+  use "navarasu/onedark.nvim"
 
   if PACKER_BOOTSTRAP then
     require("packer").sync()
