@@ -58,6 +58,7 @@ return packer.startup(function(use)
     requires = {{ "nvim-lua/plenary.nvim" }}
   }
   use "navarasu/onedark.nvim"
+  use "norcalli/nvim-colorizer.lua"
 
   if PACKER_BOOTSTRAP then
     require("packer").sync()
