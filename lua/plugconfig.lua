@@ -8,7 +8,7 @@ end
 local status_ok, treesitter = pcall(require, "nvim-treesitter.configs")
 if status_ok then
     treesitter.setup {
-        ensure_installed = "maintained",
+        ensure_installed = "all",
         highlight = { enable = true, additional_vim_regex_highlighting = true },
         indent = { enable = true, disable = { "yaml" } },
         context_commentstring = { enable = true, enable_autocmd = false },
